@@ -1,0 +1,66 @@
+## Git Commands ##
+### Refer to this link: http://nvie.com/posts/a-successful-git-branching-model/ ###
+
+#### cd into the project's folder ####
+
+### To see the status of our project ###
+git status
+
+### To see the changes between two commits ###
+git diff badgermapping/settings_dev.py
+
+### Undo last commit ###
+git reset --soft head
+
+### for help ###
+git revert -h
+
+### Switch to branch master ###
+git checkout master
+
+### Stash save changes but does not commit ###
+git stash 
+
+### To pull out the latest changes from the repository ###
+git checkout head filename
+
+### To fetch the new data from server ###
+git pull
+
+### Creating a feature branch ###
+git checkout -b branchname
+### Switched to a new branch named tests/check_in_api ###
+
+### To include the changes in project ###
+git add . -A
+
+### To commit the changes which are added. the "#.." includes the asana task(url) number ###
+git commit -m "create test case #51712205605793"
+
+### To send the changes to repository ###
+git push origin branchname -u
+
+### checkout that branch,  be in the state where you left off ###
+git stash apply
+
+### To merge the branches with the master ###
+git merge branch1 branch2
+
+### To check the installed requirements ###
+pip freeze
+
+### delete branch ###
+git checkout master
+git branch -d "branch-name to delete"
+
+
+
+
+
+
+
+
+
+
+
+
