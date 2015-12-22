@@ -1,0 +1,18 @@
+# Git Pull Request Manual #
+## Title ##
+### Give a short heading telling about the task ###
+
+## Description ##
+### Should include a summary of the task ###
+#### - Why the task was taken (e.g any bug, change requested by user) ####
+#### - What was the solution or technique for completing the task ####
+#### - Something special to know or how it benefits the app ####
+#### - Should link the Related task (e.g Asana task) 
+       Syntax : [Related Asana Task](https://app.asana.com/0/6464091815895/63575158872014) ####
+#### - Include the references (if bug then found by, if related to any other branches, include number) ####
+
+## Labels ##
+### Mark labels located in the right-hand corner such as deployable, needs code review ###
+
+
+
